@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:unki/pages/add_page.dart';
-import 'package:unki/pages/home_page.dart';
-import 'package:unki/pages/person_page.dart';
+import 'pages/add_page.dart';
+import 'pages/home_page.dart';
+import 'pages/person_page.dart';
 
 class HomePage extends StatefulWidget {
   @override

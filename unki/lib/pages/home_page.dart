@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:unki/pages/card_page.dart';
+import 'card_page.dart';
 
 class HomesPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: Text('Home'),),
+        appBar: AppBar(
+          title: Text('Home'),
+        ),
         body: buildBody(context),
       );
 
@@ -49,13 +51,12 @@ class HomesPage extends StatelessWidget {
   buildElevatedButton(context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        padding: EdgeInsets.symmetric(vertical: 8, horizontal: 22),
-        primary: Colors.lime //Color(0xFFF8FF04),
-      ),
+          padding: EdgeInsets.symmetric(vertical: 8, horizontal: 22),
+          primary: Colors.lime //Color(0xFFF8FF04),
+          ),
       onPressed: () {
         Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => CardPage()));
+            context, MaterialPageRoute(builder: (context) => CardPage()));
       },
       child: Text(
         'Quero estudar!',

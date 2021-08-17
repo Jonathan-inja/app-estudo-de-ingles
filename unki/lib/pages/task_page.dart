@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-
+import "package:flutter/material.dart";
 
 class TaskPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
@@ -7,7 +6,6 @@ class TaskPage extends StatelessWidget {
           child: Text(
             'Tarefas.',
             style: TextStyle(fontSize: 60),
-            
           ),
         ),
       );

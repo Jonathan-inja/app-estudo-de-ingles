@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:unki/pages/task_page.dart';
+import 'task_page.dart';
 
 class CardPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
