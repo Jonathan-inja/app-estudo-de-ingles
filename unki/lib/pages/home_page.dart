@@ -5,8 +5,10 @@ class HomesPage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           title: Text('Home'),
+          backgroundColor: Color(0xff54759E),
         ),
         body: buildBody(context),
+        backgroundColor: Color(0xff202125),
       );
 
   buildBody(context) {
